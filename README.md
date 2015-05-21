@@ -1,4 +1,4 @@
-# WooCommerce Social Login fi
+# WooCommerce Social Login 1.4.1 fi
 
 Suomenkielinen käännös [WooCommerce Social Login](http://www.woothemes.com/products/woocommerce-social-login/) -lisäosaan.
 
