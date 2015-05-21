@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-05-21 09:58+0200\n"
+"PO-Revision-Date: 2015-05-21 15:16+0200\n"
 "Last-Translator: Juho Tikkanen <@juhotik>\n"
 "Language-Team: \n"
 "X-Generator: Poedit 1.8\n"
@@ -72,7 +72,7 @@ msgstr "Kirjautuminen"
 
 #: includes/admin/class-wc-social-login-admin.php:186
 msgid "Connected Social Profiles"
-msgstr "Yhdistetyt tilit"
+msgstr "Yhdistetyt verkkopalvelut"
 
 #: includes/admin/class-wc-social-login-admin.php:189
 #: includes/admin/class-wc-social-login-admin.php:215
@@ -118,8 +118,8 @@ msgid ""
 "Enable to allow customers to link their social account on the Thank You page "
 "for faster login & checkout next time they purchase."
 msgstr ""
-"Kannusta käyttäjiä liittämään tilinsä suosikki verkkopalveluunsa vielä "
-"ostosten tekemisen jälkeen."
+"Kannusta käyttäjiä liittämään tilinsä johonkin verkkopalveluun vielä "
+"ostosten tekemisen jälkeenkin."
 
 #: includes/admin/class-wc-social-login-settings.php:124
 msgid "Social Login Display Text"
@@ -134,7 +134,7 @@ msgstr "Tämä teksti näkyy ”Social Login” -kirjautumispainikkeiden yläpuo
 #: includes/admin/class-wc-social-login-settings.php:127
 #: woocommerce-social-login.php:694
 msgid "For faster checkout, login or register using your social account."
-msgstr "Kirjaudu tai rekisteröidy seuraavien palveluiden avulla:"
+msgstr "Rekisteröidy tai kirjaudu jonkin alla olevan palvelun avulla."
 
 #: includes/admin/class-wc-social-login-settings.php:133
 msgid "Force SSL for all providers"
@@ -175,7 +175,7 @@ msgstr "Rekisteröitymiset"
 
 #: includes/admin/views/html-report-social-login.php:59
 msgid "linked accounts"
-msgstr "yhdistetyt tilit"
+msgstr "tiliä yhdistetty"
 
 #: includes/class-wc-social-login-opauth.php:92
 msgid "Provider Authentication error"
@@ -190,8 +190,8 @@ msgid ""
 "Save time next time you checkout by linking your account to your favorite "
 "social network. No need to remember another username and password."
 msgstr ""
-"Säästä aikaa seuraavalla kerralla yhdistämällä tilisi suosikki "
-"verkkopalveluusi."
+"Yhdistä tilisi johonkin verkkopalveluun, niin voit tulevaisuudessa kirjautua "
+"helpommin."
 
 #: includes/frontend/class-wc-social-login-frontend.php:191
 msgid "Click here to login"
@@ -207,7 +207,7 @@ msgstr "Amazon-tilisi on nyt yhdistetty tiliisi."
 
 #: includes/providers/class-wc-social-login-provider-amazon.php:46
 msgid "Amazon account was successfully unlinked from your account."
-msgstr "Yhteys Amazon-tiliin poistettu."
+msgstr "Yhteys Amazon-tiliisi poistettu."
 
 #: includes/providers/class-wc-social-login-provider-amazon.php:47
 msgid "This Amazon account is already linked to another user account."
@@ -229,11 +229,11 @@ msgstr "Allowed return URL: %s"
 
 #: includes/providers/class-wc-social-login-provider-amazon.php:107
 msgid "Log in with Amazon"
-msgstr "Amazon-kirjautuminen"
+msgstr "Kirjaudu Amazon-tunnuksellasi"
 
 #: includes/providers/class-wc-social-login-provider-amazon.php:120
 msgid "Link your account to Amazon"
-msgstr "Yhdistä tilisi Amazon-tiliin"
+msgstr "Yhdistä Amazon-tiliin"
 
 #: includes/providers/class-wc-social-login-provider-facebook.php:38
 msgid "Facebook"
@@ -249,7 +249,7 @@ msgstr "Facebook-tilisi on nyt yhdistetty tiliisi."
 
 #: includes/providers/class-wc-social-login-provider-facebook.php:46
 msgid "Facebook account was successfully unlinked from your account."
-msgstr "Yhteys Facebook-tiliin poistettu."
+msgstr "Yhteys Facebook-tiliisi poistettu."
 
 #: includes/providers/class-wc-social-login-provider-facebook.php:47
 msgid "This Facebook account is already linked to another user account."
@@ -271,11 +271,11 @@ msgstr "App Secret"
 
 #: includes/providers/class-wc-social-login-provider-facebook.php:105
 msgid "Log in with Facebook"
-msgstr "Facebook-kirjautuminen"
+msgstr "Kirjaudu Facebook-tunnuksellasi"
 
 #: includes/providers/class-wc-social-login-provider-facebook.php:118
 msgid "Link your account to Facebook"
-msgstr "Yhdistä tilisi Facebook-tiliin"
+msgstr "Yhdistä Facebook-tiliin"
 
 #: includes/providers/class-wc-social-login-provider-google.php:38
 msgid "Google"
@@ -287,7 +287,7 @@ msgstr "Google-tilisi on nyt yhdistetty tiliisi."
 
 #: includes/providers/class-wc-social-login-provider-google.php:46
 msgid "Google account was successfully unlinked from your account."
-msgstr "Yhteys Google-tiliin poistettu."
+msgstr "Yhteys Google-tiliisi poistettu."
 
 #: includes/providers/class-wc-social-login-provider-google.php:47
 msgid "This Google account is already linked to another user account."
@@ -309,11 +309,11 @@ msgstr "Authorized Redirect URI: %s"
 
 #: includes/providers/class-wc-social-login-provider-google.php:102
 msgid "Log in with Google"
-msgstr "Google-kirjautuminen"
+msgstr "Kirjaudu Google-tunnuksellasi"
 
 #: includes/providers/class-wc-social-login-provider-google.php:115
 msgid "Link your account to Google"
-msgstr "Yhdistä tilisi Google-tiliin"
+msgstr "Yhdistä Google-tiliin"
 
 #: includes/providers/class-wc-social-login-provider-instagram.php:39
 msgid "Instagram"
@@ -325,7 +325,7 @@ msgstr "Instagram-tilisi on nyt yhdistetty tiliisi."
 
 #: includes/providers/class-wc-social-login-provider-instagram.php:47
 msgid "Instagram account was successfully unlinked from your account."
-msgstr "Yhteys Instagram-tiliin poistettu."
+msgstr "Yhteys Instagram-tiliisi poistettu."
 
 #: includes/providers/class-wc-social-login-provider-instagram.php:48
 msgid "This Instagram account is already linked to another user account."
@@ -347,11 +347,11 @@ msgstr "OAuth redirect_uri: %s"
 
 #: includes/providers/class-wc-social-login-provider-instagram.php:106
 msgid "Log in with Instagram"
-msgstr "Instagram-kirjautuminen"
+msgstr "Kirjaudu Instagram-tunnuksellasi"
 
 #: includes/providers/class-wc-social-login-provider-instagram.php:119
 msgid "Link your account to Instagram"
-msgstr "Yhdistä tilisi Instagram-tiliin"
+msgstr "Yhdistä Instagram-tiliin"
 
 #: includes/providers/class-wc-social-login-provider-linkedin.php:39
 msgid "LinkedIn"
@@ -363,7 +363,7 @@ msgstr "LinkedIn-tilisi on nyt yhdistetty tiliisi."
 
 #: includes/providers/class-wc-social-login-provider-linkedin.php:47
 msgid "LinkedIn account was successfully unlinked from your account."
-msgstr "Yhteys LinkedIn-tiliin poistettu."
+msgstr "Yhteys LinkedIn-tiliisi poistettu."
 
 #: includes/providers/class-wc-social-login-provider-linkedin.php:48
 msgid "This LinkedIn account is already linked to another user account."
@@ -394,11 +394,11 @@ msgstr "Secret Key"
 
 #: includes/providers/class-wc-social-login-provider-linkedin.php:123
 msgid "Log in with LinkedIn"
-msgstr "LinkedIn-kirjautuminen"
+msgstr "Kirjaudu LinkedIn-tunnuksellasi"
 
 #: includes/providers/class-wc-social-login-provider-linkedin.php:136
 msgid "Link your account to LinkedIn"
-msgstr "Yhdistä tilisi LinkedIn-tiliin"
+msgstr "Yhdistä LinkedIn-tiliin"
 
 #: includes/providers/class-wc-social-login-provider-paypal.php:39
 msgid "PayPal"
@@ -410,7 +410,7 @@ msgstr "PayPal-tilisi on nyt yhdistetty tiliisi."
 
 #: includes/providers/class-wc-social-login-provider-paypal.php:47
 msgid "PayPal account was successfully unlinked from your account."
-msgstr "Yhteys PayPal-tiliin poistettu."
+msgstr "Yhteys PayPal-tiliisi poistettu."
 
 #: includes/providers/class-wc-social-login-provider-paypal.php:48
 msgid "This PayPal account is already linked to another user account."
@@ -452,11 +452,11 @@ msgstr "Secret"
 
 #: includes/providers/class-wc-social-login-provider-paypal.php:133
 msgid "Log in with PayPal"
-msgstr "PayPal-kirjautuminen"
+msgstr "Kirjaudu PayPal-tunnuksellasi"
 
 #: includes/providers/class-wc-social-login-provider-paypal.php:146
 msgid "Link your account to PayPal"
-msgstr "Yhdistä tilisi PayPal-tiliin"
+msgstr "Yhdistä PayPal-tiliin"
 
 #: includes/providers/class-wc-social-login-provider-twitter.php:38
 msgid "Twitter"
@@ -468,7 +468,7 @@ msgstr "Twitter-tilisi on nyt yhdistetty tiliisi."
 
 #: includes/providers/class-wc-social-login-provider-twitter.php:46
 msgid "Twitter account was successfully unlinked from your account."
-msgstr "Yhteys Twitter-tiliin poistettu."
+msgstr "Yhteys Twitter-tiliisi poistettu."
 
 #: includes/providers/class-wc-social-login-provider-twitter.php:47
 msgid "This Twitter account is already linked to another user account."
@@ -494,11 +494,11 @@ msgstr "API Secret"
 
 #: includes/providers/class-wc-social-login-provider-twitter.php:136
 msgid "Log in with Twitter"
-msgstr "Twitter-kirjautuminen"
+msgstr "Kirjaudu Twitter-tunnuksellasi"
 
 #: includes/providers/class-wc-social-login-provider-twitter.php:149
 msgid "Link your account to Twitter"
-msgstr "Yhdistä tilisi Twitter-tiliin"
+msgstr "Yhdistä Twitter-tiliin"
 
 #: includes/widgets/class-wc-social-login-widget.php:44
 msgid "Display social login buttons."
@@ -573,15 +573,15 @@ msgstr "Asetukset"
 
 #: templates/myaccount/social-profiles.php:39
 msgid "My Social Login Accounts"
-msgstr "Yhdistetyt tilit"
+msgstr "Yhdistetyt verkkopalvelut"
 
 #: templates/myaccount/social-profiles.php:46
 msgid "%sAdd more...%s"
-msgstr "%sLisää seuraava...%s"
+msgstr "%sVoit yhdistää vielä lisää palveluita.%s"
 
 #: templates/myaccount/social-profiles.php:50
 msgid "Your account is connected to the following social login providers."
-msgstr "Olet yhdistänyt tilisi seuraaviin palveluihin:"
+msgstr "Tilisi on yhdistetty alla oleviin palveluihin."
 
 #: templates/myaccount/social-profiles.php:56
 #: templates/myaccount/social-profiles.php:69
@@ -595,7 +595,7 @@ msgstr "Viimeisin kirjautuminen"
 
 #: templates/myaccount/social-profiles.php:82
 msgid "%s @ %s"
-msgstr "%s @ %s"
+msgstr "%s klo %s"
 
 #: templates/myaccount/social-profiles.php:84
 msgid "Never"
@@ -603,15 +603,17 @@ msgstr "Ei koskaan"
 
 #: templates/myaccount/social-profiles.php:89
 msgid "Unlink"
-msgstr "Poista yhteys"
+msgstr "Poista"
 
 #: templates/myaccount/social-profiles.php:99
 msgid "You have no social login profiles connected. %sConnect one now%s"
-msgstr "Et ole vielä yhdistänyt tiliäsi. %sTee se nyt!%s"
+msgstr ""
+"Yhdistä tilisi johonkin verkkopalveluun, niin voit tulevaisuudessa kirjautua "
+"helpommin. %sYhdistä nyt.%s"
 
 #: templates/myaccount/social-profiles.php:105
 msgid "You can link your account to the following providers:"
-msgstr "Voit yhdistää tilisi seuraaviin palveluihin:"
+msgstr "Voit yhdistää tilisi näihin palveluihin."
 
 #: woocommerce-social-login.php:475
 msgid ""
