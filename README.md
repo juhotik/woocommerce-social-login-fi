@@ -2,7 +2,7 @@
 
 Suomenkielinen käännös [WooCommerce Social Login](http://www.woothemes.com/products/woocommerce-social-login/) -lisäosaan.
 
-Finnish translation to [WooCommerce Social Login](http://www.woothemes.com/products/woocommerce-social-login/) -plugin.
+Finnish translation to [WooCommerce Social Login](http://www.woothemes.com/products/woocommerce-social-login/).
 
 ## Asennus / Installation
 
